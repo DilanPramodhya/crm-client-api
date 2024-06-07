@@ -1,0 +1,12 @@
+node -v
+
+npm init
+
+npm i express body-parser cors helmet morgan
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DilanPramodhya/crm-client-api.git
+git push -u origin main
