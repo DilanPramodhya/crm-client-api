@@ -11,8 +11,10 @@ git branch -M main
 git remote add origin https://github.com/DilanPramodhya/crm-client-api.git
 git push -u origin main
 
-npm i mongoose dotenv
+npm i mongoose@6.10.0 dotenv
 
 npm i bcrypt
 
 npm i jsonwebtoken
+
+npm i redis@3.0.2
